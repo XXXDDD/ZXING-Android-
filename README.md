@@ -32,11 +32,11 @@ We want to use Eclipse to build the source code, so we need to change some setti
 
 ###6. Import Maven project - Core
 * **File - Import... - Maven - Existing Maven Projects - Next**
-* **Browse** to `Zxing dir/core` - **Selete Project** and import
+* **Browse** to `Zxing dir/core` - **Select Project** and import
 
 ###7. Setup Maven build configuration and build Core
 * **Run - Run Configurations -** Doubleclick **Maven Build**
-* In **Main** : **Browse** to `/core`; type **Goal** : install; check **Skip Test** to save time
+* In **Main** : **Browse** to `/core`; type **Goal** : `install`; check **Skip Test** to save time
 * **Run**
 * Jar file: `core/target/core-3.0.0-SNAPSHOT.jar`
 
@@ -64,7 +64,7 @@ We want to use Eclipse to build the source code, so we need to change some setti
 * If you already have the standard version of Barcode Scanner installed, unistall it first.
 * *Standard version: <https://play.google.com/store/apps/details?id=com.google.zxing.client.android>*
 
-###Besides Step 11-12, We can also do..
+###We can also do...
 * Build `android/`
 * Connect your device via USB
 * If you already have the standard version of Barcode Scanner, uninstall it
