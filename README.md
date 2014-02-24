@@ -55,18 +55,18 @@ We want to use Eclipse to build the source code, so we need to change some setti
 * Choose `build.xml` under `android/`
 * buildfile `BarcodeScanner` shows in the panel
 
-###12. Run Ant debug
+###11. Run Ant debug
 * Expand `BarcodeScanner`
 * find `debug [...]` and double click it
 
-###13. Now an apk file shall been created, copy it to a rooted android device and install
+###12. Now an apk file shall been created, copy it to a rooted android device and install
 * apk file: `android/bin/BarcodeScanner-debug.apk`
 * If you already have the standard version of Barcode Scanner installed, unistall it first.
 * *Standard version: <https://play.google.com/store/apps/details?id=com.google.zxing.client.android>*
 
-###14. Besides Step 12-13, We can also do..
+###Besides Step 11-12, We can also do..
 * Build `android/`
 * Connect your device via USB
 * If you already have the standard version of Barcode Scanner, uninstall it
 * Make sure your device is set to allow apps from untrusted sources
-* Run `installd[..]` instead of `debug[...]` (in step 12)
+* Run `installd[..]` instead of `debug[...]` (in step 11)
